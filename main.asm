@@ -34,6 +34,7 @@ nop					; timer1 ovf
 jmp timer0_compa_handler ; timer0 compa
 jmp timer0_compb_handler ; timer0 compb
 reti
+
 nop					; timer0 ovf
 
 int0_handler:
